@@ -4,7 +4,7 @@ vbell on
 defscrollback 100000
 # Set the caption on the bottom line
 caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
-
+shelltitle "$ |bash"
 startup_message off
 # screen environment setup
 screen   
