@@ -118,4 +118,5 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # hopefully this bootstraps rvm into your env
 #if [[ -s /home/user/.rvm/scripts/rvm ]] ; then source /home/user/.rvm/scripts/rvm ; fi
     [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM 
-
+RUBIES+=(~/.rvm/rubies/*)
+source /usr/local/share/chruby/chruby.sh
