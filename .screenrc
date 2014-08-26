@@ -8,11 +8,8 @@ shelltitle "$ |bash"
 startup_message off
 # screen environment setup
 screen -t git 
-screen -t psql
-screen -t svc
-screen -t logs
-screen -t testrunner
-screen -t rconsole
-screen -t seescope
 screen -t spec
-screen -t helper
+screen -t runner
+screen -t irb
+
+defshell -bash
